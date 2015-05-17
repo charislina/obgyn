@@ -1,0 +1,331 @@
+
+
+
+.ui-button-text {
+ color:#333333;
+ font-size:0.75em;	
+}
+
+.ui-button .ui-icon.edit {
+    background-image: url(../images/gray-edit-32.png);
+    width: 32px;
+    height: 32px; 
+}
+
+.ui-button.ui-state-hover .ui-icon.edit {
+    background-image: url(../images/blue-edit-32.png);
+    width: 32px;
+    height: 32px; 
+}
+
+.ui-button .ui-icon.delete {
+    background-image: url(../images/gray-trash-can-32.png);
+    width: 32px;
+    height: 32px; 
+}
+
+.ui-button.ui-state-hover .ui-icon.delete {
+    background-image: url(../images/blue-trash-can-32.png);
+    width: 32px;
+    height: 32px; 
+}
+
+.ui-button .ui-icon.add {
+    background-image: url(../images/gray-note-add-32.png);
+    width: 32px;
+    height: 32px; 
+}
+
+.ui-button.ui-state-hover .ui-icon.add {
+    background-image: url(../images/blue-note-add-32.png);
+    width: 32px;
+    height: 32px; 
+}
+
+#pHeader {
+	background-color: 6599FF;
+	color: #333333;
+	margin: 0px 0px 5px 10px;
+	clear:both;
+}
+
+#pHeader1 {
+	color: #333333;
+	margin: 0px 0px 0px 0px;
+	font-size: 1em;
+	text-align:right;
+}
+
+#pHeader2 {
+	color: #333333;
+	margin: 10px 0px 0px 0px;
+	font-weight: bold;
+	font-size: 1em;
+	clear:both;
+}
+
+.pHeader3 {
+	color: #333333;
+	padding: 0px 10px 0px 10px;
+	font-size: 1em;
+	text-align: left;
+}
+
+
+section {
+	margin: 20px 0px 20px 0px;	
+	clear:both;
+}
+
+div.history_section {
+	margin: 20px 0px 20px 0px;	
+	clear:both;
+}
+
+td.data {
+	width:200px;
+	text-align:center;
+	padding:5px 0px 5px 0px;
+	margin:10px 0px 0px 0px;	
+	border-right:1px solid #1ED4BE;
+	border-bottom:1px solid #1ED4BE;
+	font-size:1em;	
+	background-color:transparent;
+}
+
+td.pregnancy_highlight_data {
+	width:200px;
+	text-align:center;
+	padding:5px 0px 5px 0px;
+	margin:10px 0px 0px 0px;	
+	border-right:1px solid #1ED4BE;
+	border-bottom:1px solid #1ED4BE;
+	color: blue;	
+	font-size:1.2em;	
+	font-weight:normal;
+	background-color: #CCFFFF;
+}
+
+td.data2 {
+	text-align:center;
+	padding:0px;
+	margin:0px 0px 0px 0px;	
+	border:1px solid #1ED4BE;
+	padding:3px 2px 3px 2px;
+	font-size:1em;	
+	background-color:transparent;
+}
+
+tr.light_gray_bg {
+	background-color: #eeeeee;
+}
+
+
+td.pregnancy_highlight_data_left {
+	width:200px;
+	text-align:center;
+	padding:5px 0px 5px 0px;
+	margin:10px 0px 0px 0px;	
+	border-left:1px solid #1ED4BE;	
+	border-right:1px solid #1ED4BE;
+	border-bottom:1px solid #1ED4BE;
+	color: blue;	
+	font-size:1.2em;	
+	font-weight:normal;
+	background-color: #CCFFFF;
+}
+
+tr.pregnancy {
+	margin:10px;
+}
+td.data_left {
+	width:200px;
+	text-align:center;
+	padding:5px 0px 5px 0px;
+	margin:10px 0px 0px 0px;	
+	border-left:1px solid #1ED4BE;	
+	border-right:1px solid #1ED4BE;
+	border-bottom:1px solid #1ED4BE;
+	font-size:1em;	
+	background-color:transparent;
+}
+
+td.data_right {
+	text-align:center;
+	padding:5px 0px 5px 0px;
+	margin:10px 0px 0px 0px;	
+	border-right:1px solid #1ED4BE;
+	border-bottom:1px solid #1ED4BE;
+	font-size:1em;	
+	background-color:transparent;
+}
+
+div.bordered {
+	border-color: #1ED4BE;
+	border-width: 1px;
+	border-style: solid;
+	margin: 0px 0px 0px 10px;	
+	padding: 2px 4px 2px 4px;
+	display:inline;
+}
+
+
+
+#bold {
+	font-weight:bold;
+}
+
+#big {
+	font-size:1.2em;
+}
+
+div.status {
+	font-size: 1.2em;
+	float:left;
+	font-weight:bold;
+	color: blue;
+	padding:5px;
+}
+div.days {
+	font-size: 1.2em;
+	float:right;
+	font-weight:bold;
+	color: blue;
+	padding:5px;
+	background-color: #CCFFFF;
+}
+
+div.closed {
+	font-size: 1.2em;
+	float:left;
+	width:200px;
+	font-weight:normal;
+	margin-left:30px;
+	color: red;
+}
+
+div.open {
+	font-size: 1.2em;
+	float:left;
+	width:200px;
+	font-weight:normal;
+	color: green;
+	margin-left:30px;	
+}
+
+
+#menu {
+	color: #c0c0c0;
+	margin: 10px 10px 10px 10px;
+	font-size: 1em;
+	color: blue;
+	display:inline-block;
+}
+
+div.inline {
+	display:inline;
+}
+
+table.pregnancy {
+	border: 0px;
+	margin: 20px 0px 20px 0px
+	border-collapse: collapse;
+}
+
+.highlight_red {
+	font-weight:bold;
+	color:red;
+}
+
+.highlight_blue {
+	color: blue;	
+	font-weight:bold;
+}
+
+th.pregnancy {
+	background-color: #1ED4BE;
+	color: #ffffff;
+	font-weight:normal;	
+	padding:5px 5px 5px 5px;
+	margin:0px 0px 0px 0px;
+	border-right:1px solid #ffffff;
+	font-size:1em;	
+	text-align:center;
+}
+
+th.pregnancy2 {
+	font-weight:normal;
+	background-color: #1ED4BE;
+	color:#ffffff;
+	border-right:1px solid #1ED4BE;
+	font-size:1em;	
+	text-align:center;
+	
+}
+
+td.data2_left {
+	width:200px;
+	text-align:center;
+	padding:5px 0px 5px 0px;
+	margin:0px 0px 0px 0px;	
+	border-left:1px solid #1ED4BE;	
+	border-right:1px solid #1ED4BE;
+	border-bottom:1px solid #1ED4BE;
+	font-size:1em;	
+	background-color:transparent;
+}
+
+table.pregnancy2 {
+	border: 0px;
+	margin: 10px 0px 10px 0px
+}
+
+th.width_180 {
+	padding:5px 0px 5px 0px;	
+	width:120px;
+}
+
+td.width_100 {
+	padding:5px 0px 5px 0px;	
+	width:40px;
+}
+
+th.pregnancy_add {
+	font-size:1em;
+	width:100px;
+	text-align:left;	
+}
+
+td.no_border {
+	border: 0px;
+}
+
+tr {
+	margin:0px;
+	padding:0px;
+}
+
+
+div.form {
+}
+
+div.table_float {	
+	width:160px;
+	float:left;
+	margin-right:10px;
+}
+
+#toggleBtn {
+	color:red;
+	font-size:1.1em;
+}
+
+
+
+td.separator {
+	background-color: transparent;
+	padding:5px 5px 5px 5px;
+	margin:0px 10px 0px 10px;
+	border: 0px;
+	width:20px;	
+}

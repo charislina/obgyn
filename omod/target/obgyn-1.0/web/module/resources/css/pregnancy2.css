@@ -1,0 +1,238 @@
+
+
+div.programHeader {
+	color: #ffffff;
+	margin:0px 0px 0px 0px;
+	padding: 5px;
+	font-weight: normal;
+	font-size: 1.5em;
+	background-color: #1ED4BE;	
+	clear:both;
+}
+
+div.pHeader2 {
+	color: #ffffff;
+	margin:0px 0px 0px 0px;
+	padding: 5px;
+	font-weight: normal;
+	font-size: 1em;
+	clear:both;
+	background-color: #1ED4BE;
+	
+}
+
+th {
+	text-align:left;
+	font-weight: bold;
+	font-size: 1em;
+}
+span.label {
+   font-size: 1em;
+	padding: 5px;
+   height: 34px; 
+   width: 128px;  
+}
+
+select {
+   width: 268px;
+   padding: 5px;
+   font-size: 1em;
+   line-height: 1;
+   height: 34px;
+}
+
+div.right_float {	
+	background-color: #477187;		
+	color: #ffffff;
+	margin:0px 0px 0px 0px;
+	padding: 5px;
+	font-weight: normal;
+}
+
+div.left_float {
+	color: #ffffff;
+	margin:0px 0px 0px 0px;
+	padding: 5px;
+	font-weight: normal;
+	font-size: 1.5em;	
+	background-color: #1ED4BE;
+}
+
+div.pHeader3 {
+	color: #333333;
+	padding: 10px 10px 10px 10px;
+	font-size: 1em;
+	text-align: left;
+}
+
+div.history_section {
+	border:1px solid #1ED4BE;
+	margin: 10px 5px 10px 5px;	
+	clear:both;
+}
+
+table.data {
+	border: 0px;
+	margin: 5px 40px 5px 5px;
+	padding:10px;
+	border-collapse: collapse;
+}
+
+table.data_float_right {
+	border: 0px;
+	margin: 5px 40px 5px 5px;
+	float:right;
+	border-collapse: collapse;
+}
+
+div.div_float_left {
+	border: 0px;
+	margin: 5px 40px 5px 5px;
+	float:left;
+}
+
+div.div_float_right {
+	border: 0px;
+	margin: 5px 5px 5px 40px;
+	float:right;
+}
+
+
+table.data_float_left {
+	border: 0px;
+	margin: 5px 40px 5px 5px;
+	float:left;
+	border-collapse: collapse;
+}
+
+
+tr.light_gray_bg {
+	background-color: #eeeeee;
+}
+
+td.data_light {
+	font-weight:normal;
+	padding: 5px;
+	text-align:center;
+	border:0px;
+	background-color: #eeeeee;
+	height:26px;
+}
+	
+td.title {
+	background-color: #eeeeee;
+	font-weight:normal;
+	padding: 5px 10px 5px 10px;
+	text-align:left;
+	border:1px solid #CCCCCC;
+}
+
+td.title_nb {
+	background-color: #eeeeee;
+	font-weight:normal;
+	padding: 5px 10px 5px 10px;
+	text-align:left;
+	border:0px;
+}
+
+td.data3 {
+	padding: 5px 10px 5px 10px;
+	text-align:left;
+	border:1px solid #CCCCCC;
+}
+
+td.data5 {
+	padding: 5px 10px 5px 10px;
+	text-align:center;
+	border:1px solid #CCCCCC;
+}
+
+td.data4 {
+	padding: 5px 10px 5px 10px;
+	text-align:center;
+	border:0px;
+	min-width:120px;
+}
+
+textarea {
+	border:1px solid #eeeeee;	
+}
+
+/*
+#patientActionsBoxHeader { display: none; }
+
+#patientActionsBox { display: none; }
+
+#patientProgramsBoxHeader { display: none; }
+
+#patientProgramsBox { display: none; }
+*/
+
+#patientAlergiesBoxHeader { display: none; }
+
+#patientAlergiesBox { display: none; }
+
+#patientProblemsBoxHeader { display: none; }
+
+#patientProblemsBox { display: none; }
+
+
+div.menu {
+	margin: 5px 0px 5px 0px;
+	color: blue;
+	text-align:left;
+}
+
+div.inline {
+	display:inline;
+}
+
+.highlight_blue {
+	color: blue;	
+	font-size:1.1em;	
+	font-weight:normal;
+	background-color: #CCFFFF;
+}
+	
+.highlight_red {
+	font-weight:bold;
+	color:red;
+	font-size:1.1em;		
+}
+
+th {
+	padding: 5px 0px 5px 0px;
+}
+
+td.separator {
+	background-color: transparent;
+	padding:5px 5px 5px 5px;
+	margin:0px 10px 0px 10px;
+	border: 0px;
+	width:20px;	
+}
+
+img {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+img {
+    vertical-align: middle;
+    padding:5px;
+}
+
+div.section {
+	margin: 10px 5px 10px 5px;	
+	clear:both;
+}
+div.bordered_section {
+	margin: 10px 0px 10px 0px;	
+	clear:both;
+	border: 1px solid #CCCCCC;
+}

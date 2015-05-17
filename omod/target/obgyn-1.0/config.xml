@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module configVersion="1.2">
+
+	<!-- Module Properties -->
+	<id>obgyn</id>
+	<name>OBGyn Module</name>
+	<version>1.0</version>
+	<package>org.openmrs.module.obgyn</package>
+	<author>charis</author>
+	<description>
+		Helps to start writing OpenMRS modules
+	</description>
+	<updateURL>https://modules.openmrs.org/modules/download/obgyn/update.rdf</updateURL>
+	<require_version>1.9.7</require_version>
+	<!-- / Module Properties -->
+
+	
+	<!-- Required Modules -->
+	<require_modules>
+																											
+		<require_module version="2.5">
+			org.openmrs.module.htmlformentry
+		</require_module>
+			
+	</require_modules>
+	<!-- / Required Modules -->
+	
+	<!-- Module Activator -->
+	<activator>org.openmrs.module.obgyn.OBGynActivator</activator>
+	
+	
+	<!-- Adds link to admin page -->
+	<extension>
+		<point>org.openmrs.admin.list</point>
+		<class>org.openmrs.module.obgyn.extension.html.AdminList</class>
+	</extension>
+	
+	<!-- Maps hibernate file's, if present 
+	<mappingFiles>
+				
+		OBGyn.hbm.xml
+				
+	</mappingFiles>
+-->
+
+	<extension>
+		<point>org.openmrs.patientDashboardTab</point>
+		<class>org.openmrs.module.obgyn.extension.html.HistoryDashboardTabExt</class>
+	</extension>
+	
+	<!-- Internationalization -->
+	<!-- All message codes should start with obgyn. -->
+	<messages>
+		<lang>en</lang>
+		<file>messages.properties</file>
+	</messages>
+	<messages>
+		<lang>fr</lang>
+		<file>messages_fr.properties</file>
+	</messages>
+	<messages>
+		<lang>es</lang>
+		<file>messages_es.properties</file>
+	</messages>
+	<!-- /Internationalization -->
+
+</module>
+

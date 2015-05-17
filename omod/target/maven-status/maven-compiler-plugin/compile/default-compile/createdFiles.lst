@@ -1,0 +1,4 @@
+org/openmrs/module/obgyn/web/controller/OBGynManageController.class
+org/openmrs/module/obgyn/web/controller/OBGynHistoryPortletController.class
+org/openmrs/module/obgyn/extension/html/HistoryDashboardTabExt.class
+org/openmrs/module/obgyn/extension/html/AdminList.class
